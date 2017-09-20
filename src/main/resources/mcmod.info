@@ -1,0 +1,17 @@
+[
+{
+  "modid": "betterwithhardersteelrecipe",
+  "name": "Better With Harder Steel Recipe",
+  "description": "A different way to get stone buttons and pressure plates.",
+  "version": "${version}",
+  "credits": "Recreated using straight Java and eClipse",
+  "logoFile": "/logo.png",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "kreezxil" ],
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

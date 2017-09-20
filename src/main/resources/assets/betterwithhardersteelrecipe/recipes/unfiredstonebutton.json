@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        " s ",
+        "sbs",
+        " s "
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "b": {
+            "item": "betterwithhardersteelrecipe:buttonclay"
+        }
+    },
+    "result": {
+        "item": "betterwithhardersteelrecipe:unfiredstonebutton"
+    }
+}
