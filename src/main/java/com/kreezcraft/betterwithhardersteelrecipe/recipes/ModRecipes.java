@@ -19,6 +19,7 @@ public class ModRecipes {
 
 		GameRegistry.addSmelting(InitBlocks.UNFIREDCLAYTILE, new ItemStack(InitBlocks.CLAYTILE), 0.02f);
 		GameRegistry.addSmelting(InitBlocks.UNFIREDSTONEBUTTON, new ItemStack(Blocks.STONE_BUTTON), 0.02f);
+		GameRegistry.addSmelting(InitBlocks.UNFIREDSTONEPRESSUREPLATE, new ItemStack(Blocks.STONE_PRESSURE_PLATE), 0.02f);
 	}
 
 }

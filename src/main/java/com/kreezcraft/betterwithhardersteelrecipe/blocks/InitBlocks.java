@@ -13,7 +13,7 @@ public class InitBlocks {
 	
 	public static final Block UNFIREDCLAYTILE = new BlockBase(Material.CLAY, "_unfiredclaytile");
 	public static final Block UNFIREDSTONEBUTTON = new BlockBase(Material.CLAY, "_unfiredstonebutton");
-	public static final Block CLAYTILE = new BlockBase(Material.ROCK,"_claytile");
+	public static final Block CLAYTILE = new RotatedBlock("_claytile");
 	public static final Block UNFIREDSTONEPRESSUREPLATE = new BlockBase(Material.CLAY,"_unfiredstonepressureplate");
 	
 }

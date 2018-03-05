@@ -1,5 +1,7 @@
 package com.kreezcraft.betterwithhardersteelrecipe.blocks;
 
+import java.util.Random;
+
 import com.kreezcraft.betterwithhardersteelrecipe.BetterWithHarderSteelRecipe;
 import com.kreezcraft.betterwithhardersteelrecipe.client.IHasModel;
 import com.kreezcraft.betterwithhardersteelrecipe.items.InitItems;
@@ -24,8 +26,25 @@ public class BlockBase extends Block implements IHasModel {
 		setUnlocalizedName(BetterWithHarderSteelRecipe.MODID + "." + name);
 		setCreativeTab(BetterWithHarderSteelRecipe.creativeTab);
 		setRegistryName(name);
+		setHardness(material);
 		InitBlocks.BLOCKS.add(this);
 		InitItems.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));
+	}
+
+	private void setHardness(Material material) {
+		float hardness;
+		if(material == Material.CLAY) {
+			hardness = 0.02f;
+		} else {
+			hardness = 1f;
+		}
+		this.setHardness(hardness);
+	}
+
+	
+	@Override
+	public int quantityDropped(IBlockState state, int fortune, Random random) {
+				return 1;
 	}
 
 	@Override

@@ -1,5 +1,8 @@
 {
     "variants": {
-        "normal": { "model": "betterwithhardersteelrecipe:claytile" }
+        "facing=east": { "model": "betterwithhardersteelrecipe:claytile", "x": 90 , "y": 90 },
+        "facing=south": { "model": "betterwithhardersteelrecipe:claytile", "x": 90, "y": 180 },
+        "facing=west": { "model": "betterwithhardersteelrecipe:claytile", "x": 90, "y": 270 },
+        "facing=north": { "model": "betterwithhardersteelrecipe:claytile", "x": 90, "y": 0 }
     }
 }
