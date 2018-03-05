@@ -13,5 +13,5 @@ public class InitItems {
 	public static final Item BUTTONCLAY = new ItemBase("buttonclay");
 	public static final Item UNFIREDPRESSUREPLATE = new ItemBase("unfiredpressureplate");
 	public static final Item UNFIREDSTONEBUTTON = new ItemBase("unfiredstonebutton");
-
+	
 }

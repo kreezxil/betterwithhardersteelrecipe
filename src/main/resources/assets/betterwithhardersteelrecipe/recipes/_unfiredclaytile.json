@@ -1,17 +1,14 @@
 {
     "type": "forge:ore_shaped",
     "pattern": [
-        "ib"
+        "ccc"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:item_frame"
-        },
-        "b": {
+        "c": {
             "item": "betterwithhardersteelrecipe:buttonclay"
         }
     },
     "result": {
-        "item": "betterwithhardersteelrecipe:unfiredpressureplate"
+        "item": "betterwithhardersteelrecipe:_unfiredclaytile"
     }
 }

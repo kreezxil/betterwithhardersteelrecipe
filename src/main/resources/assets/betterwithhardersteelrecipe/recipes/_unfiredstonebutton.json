@@ -1,0 +1,17 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "cr"
+    ],
+    "key": {
+        "c": {
+            "item": "betterwithhardersteelrecipe:buttonclay"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "betterwithhardersteelrecipe:_unfiredstonebutton"
+    }
+}

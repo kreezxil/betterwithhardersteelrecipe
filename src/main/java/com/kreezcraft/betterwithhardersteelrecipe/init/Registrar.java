@@ -1,5 +1,6 @@
 package com.kreezcraft.betterwithhardersteelrecipe.init;
 
+import com.kreezcraft.betterwithhardersteelrecipe.blocks.InitBlocks;
 import com.kreezcraft.betterwithhardersteelrecipe.client.IHasModel;
 import com.kreezcraft.betterwithhardersteelrecipe.items.InitItems;
 
@@ -18,10 +19,10 @@ public class Registrar {
 		event.getRegistry().registerAll(InitItems.ITEMS.toArray(new Item[0]));
 	}
 
-//	@SubscribeEvent
-//	public static void onBlockRegister(Register<Block> event) {
-//		event.getRegistry().registerAll(InitBlocks.BLOCKS.toArray(new Block[0]));
-//	}
+	@SubscribeEvent
+	public static void onBlockRegister(Register<Block> event) {
+		event.getRegistry().registerAll(InitBlocks.BLOCKS.toArray(new Block[0]));
+	}
 
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent e) {
@@ -29,10 +30,10 @@ public class Registrar {
 			if (i instanceof IHasModel)
 				((IHasModel) i).registerModels();
 		}
-//		for (Block b : InitBlocks.BLOCKS) {
-//			if (b instanceof IHasModel)
-//				((IHasModel) b).registerModels();
-//		}
+		for (Block b : InitBlocks.BLOCKS) {
+			if (b instanceof IHasModel)
+				((IHasModel) b).registerModels();
+		}
 	}
 
 }

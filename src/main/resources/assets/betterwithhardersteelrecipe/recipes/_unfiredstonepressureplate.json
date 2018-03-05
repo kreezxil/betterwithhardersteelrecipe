@@ -1,0 +1,17 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "tr"
+    ],
+    "key": {
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "t": {
+            "item": "betterwithhardersteelrecipe:_unfiredclaytile"
+        }
+    },
+    "result": {
+        "item": "betterwithhardersteelrecipe:_unfiredstonepressureplate"
+    }
+}

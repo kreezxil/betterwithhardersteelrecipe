@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        " t ",
+        "tqt",
+        "ccc"
+    ],
+    "key": {
+        "t": {
+            "item": "minecraft:redstone_torch"
+        },
+        "q": {
+            "item": "minecraft:quartz"
+        },
+        "c": {
+            "item": "betterwithhardersteelrecipe:_claytile"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator"
+    }
+}

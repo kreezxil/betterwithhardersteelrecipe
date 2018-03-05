@@ -1,5 +1,6 @@
 package com.kreezcraft.betterwithhardersteelrecipe.recipes;
 
+import com.kreezcraft.betterwithhardersteelrecipe.blocks.InitBlocks;
 import com.kreezcraft.betterwithhardersteelrecipe.items.InitItems;
 
 import net.minecraft.init.Blocks;
@@ -13,9 +14,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModRecipes {
 
 	public static void init() {
-	//	GameRegistry.addSmelting(InitBlocks.DIAMOND_SAND, new ItemStack(InitBlocks.DIAMOND_GLASS), 10f);
-		GameRegistry.addSmelting(InitItems.UNFIREDSTONEBUTTON, new ItemStack(Blocks.STONE_BUTTON), 0.02f);
-		GameRegistry.addSmelting(InitItems.UNFIREDPRESSUREPLATE, new ItemStack(Blocks.STONE_PRESSURE_PLATE), 0.02f);
+//		GameRegistry.addSmelting(InitItems.UNFIREDSTONEBUTTON, new ItemStack(Blocks.STONE_BUTTON), 0.02f);
+//		GameRegistry.addSmelting(InitItems.UNFIREDPRESSUREPLATE, new ItemStack(Blocks.STONE_PRESSURE_PLATE), 0.02f);
+
+		GameRegistry.addSmelting(InitBlocks.UNFIREDCLAYTILE, new ItemStack(InitBlocks.CLAYTILE), 0.02f);
+		GameRegistry.addSmelting(InitBlocks.UNFIREDSTONEBUTTON, new ItemStack(Blocks.STONE_BUTTON), 0.02f);
 	}
 
 }

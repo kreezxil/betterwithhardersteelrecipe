@@ -1,0 +1,21 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "tkt",
+        "ccc"
+    ],
+    "key": {
+        "t": {
+            "item": "minecraft:redstone_torch"
+        },
+        "k": {
+            "item": "minecraft:clock"
+        },
+        "c": {
+            "item": "betterwithhardersteelrecipe:_claytile"
+        }
+    },
+    "result": {
+        "item": "minecraft:repeater"
+    }
+}
